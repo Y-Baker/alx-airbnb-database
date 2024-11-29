@@ -25,7 +25,9 @@ cat database-script-0x01/schema.sql | mysql -u airbnb -p airbnb
 ---
 
 ## Seed Data
-...
+```bash
+cat database-script-0x02/seed.sql | mysql -u airbnb -p airbnb
+```
 
 
 <br />
