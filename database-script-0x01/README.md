@@ -6,12 +6,12 @@ CREATE DATABASE airbnb;
 
 ### how to create the user
 ```sql
-CREATE USER 'airbnb'@'*' IDENTIFIED BY 'root';
+CREATE USER 'airbnb'@'%' IDENTIFIED BY 'root';
 ```
 
 ### how to grant privileges and flush privileges
 ```sql
-GRANT ALL PRIVILEGES ON airbnb.* TO 'airbnb'@'*';
+GRANT ALL PRIVILEGES ON airbnb.* TO 'airbnb'@'%';
 FLUSH PRIVILEGES;
 ```
 
